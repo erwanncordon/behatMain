@@ -8,8 +8,8 @@
 		"bin-dir": "bin/"
 	},
  	"autoload": {
-        "psr-0": {
-            "BehatMain\\": "src/"
+        "psr-4": {
+            "BehatMain\\": "BehatMain/src/"
         }
     }
 }
