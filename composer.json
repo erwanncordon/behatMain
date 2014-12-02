@@ -1,6 +1,5 @@
 {
 	"name": "erwanncordon/behatMain",
-	"minimum-stability": "dev",
 	"require": {
 		"behat/behat": "~3.0.6",
 		"phpunit/phpunit": "4.3.*"
