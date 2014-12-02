@@ -11,7 +11,7 @@
     "autoload": {
         "psr-0": {
             "erwanncordon\\behatMain":    "features/",
-            "erwanncordon\\behatMain\\library":    "",
+            "erwanncordon\\behatMain\\library": ""
         }
-    },
+    }
 }
