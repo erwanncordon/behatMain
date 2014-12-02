@@ -10,7 +10,7 @@
 	},
  	"autoload": {
         "psr-4": {
-            "BehatMain\\": "src/"
+            "BehatMain\\": "BehatMain/src/"
         }
     }
 }
