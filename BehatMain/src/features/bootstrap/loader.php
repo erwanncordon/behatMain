@@ -1,6 +1,6 @@
 <?php
 
-nameSpace Features\Bootstrap;
+nameSpace BehatMain\Features\Bootstrap;
 
 require_once('FeatureContext.php');
 
