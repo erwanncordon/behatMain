@@ -10,7 +10,7 @@ require_once 'vendor/phpunit/phpunit/src/Framework/Assert/Functions.php';
 /**
  * Defines application features from the specific context.
  */
-class FeatureContext implements Context, SnippetAcceptingContext
+class DefaultContext implements Context, SnippetAcceptingContext
 {
     /**
      * Initializes context.

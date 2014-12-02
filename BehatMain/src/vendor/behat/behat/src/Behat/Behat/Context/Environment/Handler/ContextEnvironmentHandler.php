@@ -73,6 +73,8 @@ final class ContextEnvironmentHandler implements EnvironmentHandler
     {
         $environment = new UninitializedContextEnvironment($suite);
         foreach ($this->getNormalizedContextSettings($suite) as $context) {
+            print_r($this->resolveClass($context[0]));
+            echo PHP_EOL;
             $environment->registerContextClass($this->resolveClass($context[0]), $context[1]);
         }
 
